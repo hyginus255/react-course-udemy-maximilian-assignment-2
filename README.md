@@ -1,12 +1,7 @@
-The instructions are:
+Follow the instructions explained in the problem video and try to implement a solution on your own. Compare it with my solution (video + downloadable files) thereafter.
 
-Create TWO new components: UserInput and UserOutput
-UserInput should hold an input element, UserOutput two paragraphs
-Output multiple UserOutput components in the App component (any paragraph texts of your choice)
-Pass a username (of your choice) to UserOutput via props and display it there
-Add state to the App component (=> the username) and pass the username to the UserOutput component
-Add a method to manipulate the state (=> an event-handler method)
-Pass the event-handler method reference to the UserInput component and bind it to the input-change event
-Ensure that the new input entered by the user overwrites the old username passed to UserOutput
-Add two-way-binding to your input (in UserInput) to also display the starting username
-Add styling of your choice to your components/ elements in the components - both with inline styles and stylesheets
+You'll also need to transform a string into a real array and then join it back into a string again to complete task 5 of the assignment.
+
+You can split a string into an array of its characters with the split('')  method. By passing just an empty string, it's split after every character.
+
+You may then re-create a string from that array by using join('')  - again, joining with an empty string as a separator.
